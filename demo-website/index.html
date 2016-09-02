@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wonder in Kiwiland</title>
+        <!--Boostrap's CSS-->
+        <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <!--Custom CSS-->
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>  
+        <div class="container" id="page-container">
+            <h1 id="app-name">
+                <span class="glyphicon glyphicon-pause"></span> Welcome to Jina's blog..
+            </h1>
+            <!-- NB: glyphicon halflings are generally not free, but the developer made them free in bootstrap -->
+
+            <h2 id="page-header">
+                Believe.. good things are on the way.
+            </h2>
+        </div>
+        
+        <div class="container">
+            <header>
+                <nav>
+                    <h3>
+                        <ul>
+                            <li>Home</li>
+                            <li><a href="aboutMe.html">More about me</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="talks.html">Talks</a></li>
+                        </ul>
+                    </h3>
+                </nav>
+            </header>
+        </div>
+        
+        <article>
+        <img src="https://scontent-syd1-1.xx.fbcdn.net/v/t1.0-9/12376046_1712740302281023_4508281555058926012_n.jpg?oh=3856dff56fb1135869c66fa5eb25691c&oe=5847E146" class="img-queenstown">   
+        <p>Fine art, people, explore fine food, laughs and programming are value things in my life.</p>
+        </article>
+
+           <!-- 
+            NB: You generally do not want to publically expose the server structure (eg. ./node_modules/...)
+            will sort that in later bootcamps with task-runners and the like.
+            For now this is just a demonstration.
+
+            Alternatively can use CDNs for bootstrap/jquery
+        -->
+        
+        <!--jQuery Script-->
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <!--Bootstrap Script-->
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!--Custom Script-->
+        <script src="./js/basic.js"></script>
+    </body>
+</html>

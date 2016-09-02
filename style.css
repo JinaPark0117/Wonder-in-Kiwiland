@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color:lightgrey}
+h1   {color:blue}
+p    {color:green}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 5px;
+	text-align: left;
+}
+</style>
+</head>
+<body>
+
+<h1>Hello</h1>
+<p>first paragraph.</p>
+
+<table style="width:100%">
+	<caption>Monthly savings</caption>
+	<tr>
+		<th>Month</th>
+		<th>Savings</th>
+	</tr>
+	<tr>
+		<th>January</th>
+		<th>$0</th>
+	</tr>
+	<tr>
+		<th>Febuary</th>
+		<th>$0</th>
+	</tr>	
+</table>
+			
+<a href="http://www.microsoft.com">This is a link to Microsoft</a>
+ 
+</body>
+</html>
