@@ -8,6 +8,21 @@
         <link rel="stylesheet" type="text/css" href="./css/style.css">
     </head>
     <body>  
+        <!--Implementing Facebook commenting-->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!--top button-->
+        <a name="top"></a>
+        <s_t3>
+            <div id="container">
+                <div id="content">
         <div class="container" id="page-container">
             <h1 id="app-name">
                 <span class="glyphicon glyphicon-pause"></span> Welcome to Jina's blog..
@@ -15,19 +30,19 @@
             <!-- NB: glyphicon halflings are generally not free, but the developer made them free in bootstrap -->
 
             <h2 id="page-header">
-                Believe.. good things are on the way.
+                Let's talk about anything!
             </h2>
         </div>
         
-        <div class="container">
+       <div class="container">
             <header>
                 <nav>
                     <h3>
                         <ul>
-                            <li>Home</li>
-                            <li><a href="aboutMe.html">More about me</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="aboutMe.html">more about me</a></li>
                             <li><a href="contact.html">Contact</a></li>
-                            <li><a href="talks.html">Talks</a></li>
+                            <li>Talks</li>
                         </ul>
                     </h3>
                 </nav>
@@ -35,10 +50,8 @@
         </div>
         
         <article>
-        <img src="https://scontent-syd1-1.xx.fbcdn.net/v/t1.0-9/12376046_1712740302281023_4508281555058926012_n.jpg?oh=3856dff56fb1135869c66fa5eb25691c&oe=5847E146" class="img-queenstown">   
-        <p>Fine art, people, explore fine food, laughs and programming are value things in my life.</p>
+         <div class="fb-comments" data-href="file:///C:/Users/J%20Park/Desktop/HelloModule2/demo-website/talks.html" data-width="400px" data-numposts="5"></div>
         </article>
-
            <!-- 
             NB: You generally do not want to publically expose the server structure (eg. ./node_modules/...)
             will sort that in later bootcamps with task-runners and the like.
@@ -46,12 +59,12 @@
 
             Alternatively can use CDNs for bootstrap/jquery
         -->
-        
+       
         <!--jQuery Script-->
         <script src="./node_modules/jquery/dist/jquery.min.js"></script>
         <!--Bootstrap Script-->
         <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <!--Custom Script-->
-        <script src="./js/basic.js"></script>
+        <!--top button-->
+        <a style="position:fixed;display:scroll;position:fixed;bottom:100px;right:10px;" href="file:///C:/Users/J%20Park/Desktop/HelloModule2/demo-website/aboutMe.html"><img src = "http://www.nenlib.ru/jirbis2/images/up.png"></a>
     </body>
 </html>
